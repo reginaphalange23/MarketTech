@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Markettech</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/lib/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="left_side">
+        <ul class="menu hidden mobile">
+            <button class="close" id="close"><img src="images/close.png" alt="close" /></button>
+            <li class="mobile"><a href="index.html">HOME</a></li>
+            <li><a href="javascript:;">ABOUT US<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></a></li>
+            <li><span onclick="displayMenu()">OUR BUSINESS<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></span>
+                <ul>
+                    <li class="clickable">Building ecosystems<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" />
+                        <ul class="showable">
+                            <li><a href="javascript:;">Placemaking</a></li>
+                            <li><a href="javascript:;">Co-working</a></li>
+                            <li><a href="javascript:;">Technology and Online Services</a></li>
+                            <li><a href="javascript:;">Retail services</a></li>
+                            <li><a href="javascript:;">Asset optimisation</a></li>
+                        </ul>
+                    </li>
+                    <li class="clickable">Why Camden<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" />
+                        <ul class="showable">
+                            <li><a href="javascript:;">The right place</a></li>
+                            <li><a href="javascript:;">The right scale</a></li>
+                            <li><a href="javascript:;">The right retallers</a></li>
+                            <li><a href="javascript:;">The right visitors</a></li>
+                            <li><a href="javascript:;">The right technology</a></li>
+                        </ul>
+                    </li>
+                    <li class="clickable">Our assets<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" />
+                        <ul class="showable">
+                            <li><a href="ourassets.html">Camden Properties</a></li>
+                            <li><a href="javascript:;">Developments</a></li>
+                            <li><a href="javascript:;">Technology</a></li>
+                        </ul>
+                    </li>
+                    <li class="clickable">Our responsibilities<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" />
+                        <ul class="showable">
+                            <li><a href="javascript:;">Our approach</a></li>
+                            <li><a href="javascript:;">Stakeholder engagement</a></li>
+                            <li><a href="javascript:;">Business focused Initiatives</a></li>
+                            <li><a href="javascript:;">Communities</a></li>
+                        </ul>
+                    </li>
+                </ul></li>
+            <li><a href="investors.html">INVESTORS<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></a></li>
+            <li><a href="javascript:;">NEWS &amp; MEDIA<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></a></li>
+            <li><a href="javascript:;">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="dropdown desktop">
+        <div class="container">
+            <ul class="sub-menu">
+                <li>Building ecosystems</li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Placemaking</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Co-working</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Technology and Online Services</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Retail services</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Asset optimisation</a></li>
+            </ul>
+            <ul class="sub-menu">
+                <li>Why Camden</li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />The right place</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />The right scale</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />The right retallers</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />The right visitors</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />The right technology</a></li>
+            </ul>
+            <ul class="sub-menu">
+                <li>Our assets</li>
+                <li><a href="ourassets.html"><img src="images/pointer.png" alt="pointer" class="pointer" />Camden Properties</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Developments</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Technology</a></li>
+            </ul>
+            <ul class="sub-menu">
+                <li>Our responsibilities</li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Our approach</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Stakeholder engagement</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Business focused Initiatives</a></li>
+                <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Communities</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layer"></div>
+
+    <div class="wrapin">
+        <header>
+            <div class="container">
+                <div class="flexdiv mobile">
+                    <button id="burger"><img src="images/mobile/hamburger.png" alt="hamburger_icon" class="hamburger" /></button>
+                    <button><a href="javascript:;"><img src="images/logo.png" alt="logo" class="logo"/></a></button>
+                    <button><img src="images/mobile/search.png" alt="search_icon" class="search" /></button>
+                </div>
+                <ul class="menu desktop">
+                    <li class="desktop"><a href="index.html"><img src="images/homeicon.png" alt="home_icon" /></a></li>
+                    <li class="mobile"><a href="index.html">HOME</a></li>
+                    <li><a href="javascript:;">ABOUT US<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></a></li>
+                    <li><span onclick="myFunction()">OUR BUSINESS<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></span></li>
+                    <li><a href="investors.html">INVESTORS<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></a></li>
+                    <li class="desktop"><a href="javascript:;"><img src="images/logo.png" alt="logo_icon" class="logo" /></a></li>
+                    <li><a href="javascript:;">NEWS &amp; MEDIA<img src="images/bluearrowdn.png" alt="arrow_down" class="arrowdown mobile" /></a></li>
+                    <li><a href="javascript:;">CONTACT</a></li>
+                </ul>
+                <form class="desktop">
+                    <input placeholder="SEARCH" type="text" />
+                    <img src="images/search_icon.png" alt="search_icon" />
+                </form>
+            </div>
+        </header>
+
+        <div class="banner" style="background-image: url('images/banner.png')">
+            <div class="blackopacity">
+                <div class="container">
+                    <div class="bannerwrapper">
+                        <div class="abs_text">
+                            <div class="banner_square floatedr"><span class="span_x">Share Price at 13.36</span><span class="span_y">253.00</span><span class="span_z"> GBp</span></div>
+                            <h1>THE PLACE WHERE INDEPENDENT RETAILERS GO GLOBAL</h1>
+                        </div>
+                        <img src="images/banner.png" alt="banner_image" class="only-mobile" />
+                    </div>
+                    <div class="explore"><a href="javascript:;">
+                        <img src="images/pointer.png" alt="pointer" class="pointer"/>Explore our business
+                    </a></div>
+                    <div class="banner_square big_one"><a href="javascript:;">BUILDING ECOSYSTEMS</a></div>
+                    <div class="margindiv">
+                        <div><a href="javascript:;">CAMDEN PROPERTIES</a></div>
+                        <div><a href="javascript:;">DEVELOPMENTS</a></div>
+                        <div><a href="javascript:;">TECHNOLOGY</a></div>
+                    </div>
+                    <div class="banner_square scroll"><a href="javascript:;">
+                        <img src="images/arrow_down.png" alt="scroll_down" class="desktop"/>
+                        <img src="images/bluearrowdn.png" alt="scroll_down" class="mobile" />
+                    </a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="firstsection">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <div class="grey_divs">
+                            <p class="roman">07/04/2015 - Press release</p>
+                            <p>Combining real estate and e-commerce for growth</p>
+                        </div>
+                        <div class="grey_divs">
+                            <p class="roman">25/03/2015 - Press release</p>
+                            <p>Driving online through a landmark global asset</p>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="horizontaldiv">Financial highlights</div>
+                        <div class="squares bordered">
+                            <div>
+                                <span class="pound">&pound;</span><span class="number withpoint">15</span><span class="aqua">billion</span><span class="rest">of GDV</span>
+                            </div>
+                        </div>
+                        <div class="squares">
+                            <div>
+                                <span class="pound">&pound;</span><span class="number">24</span><span class="aqua">million</span><span class="rest">Annual rent</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="grey_divs">
+                            <p class="roman">07/04/2015 - RNS</p>
+                            <p>Market Tech announces three key contracts for Camden Markets</p>
+                        </div>
+                        <div class="grey_divs">
+                            <p class="roman">25/03/2015 - RNS</p>
+                            <p>Completion of the acquisition of The Interchange Building</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="secondsection" style="background-image: url('images/citybackground.png')">
+            <div class="blackopacity">
+                <img src="images/citybackground.png" alt="citybackground" class="only-mobile" />
+                <div class="container">
+                    <p>Market Tech Holdings is a unique platform for the combination of iconic real estate assets and e-commerce. Focused on not only the benefits that become the Group's extensive real estate assets, Market Tech is leveraging the physical flow of visitors to these assets with an online retail offering and eCommerce strategy to create an online global marketplace and multi-channel offering.</p>
+                    <div class="banner_square"><a href="javascript:;">ABOUT US</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thirdsection">
+            <div class="container">
+                <ul class="leftfloated">
+                    <li>Market Tech websites</li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Camdenmarket.com</a></li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Market.com</a></li>
+                </ul>
+                <ul class="leftfloated" class="leftfloated">
+                    <li>Investor relations</li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Aim Rule 26</a></li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Strategy</a></li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Share price</a></li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Sign up for email alerts</a></li>
+                </ul>
+                <ul class="leftfloated">
+                    <li>Key information</li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Disclaimer</a></li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Accessibility</a></li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Privacy &amp; Cookie Policy</a></li>
+                    <li><a href="javascript:;"><img src="images/pointer.png" alt="pointer" class="pointer" />Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer_l">&copy; 2015 Market Tech</div>
+                <div class="footer_r">by Emperor</div>
+            </div>
+        </footer>
+
+    </div>
+
+<script src="assets/scripts/jquery-3.2.1.min.js"></script>
+<script src="assets/scripts/script.js"></script>
+
+</body>
+</html>
